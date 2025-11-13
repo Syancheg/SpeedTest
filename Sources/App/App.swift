@@ -28,25 +28,6 @@ struct SpeedTestApp: App {
         WindowGroup {
             AppRouter()
                 .environmentObject(store)
-                .onAppear {
-                    store.send(.lifecycle(.appDidLaunch))
-                }
-        }
-        .onChange(of: scenePhase) { _, newValue in
-            handleScenePhaseChange(newValue)
-        }
-    }
-    
-    private func handleScenePhaseChange(_ scenePhase: ScenePhase) {
-        switch scenePhase {
-        case .active:
-            store.send(.lifecycle(.appDidBecomeActive))
-        case .inactive:
-            store.send(.lifecycle(.appWillResignActive))
-        case .background:
-            break
-        @unknown default:
-            break
         }
     }
 }

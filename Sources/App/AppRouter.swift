@@ -4,12 +4,19 @@ struct AppRouter: View {
     @EnvironmentObject var store: Store<AppState, AppAction>
     
     var body: some View {
-        Group {
-            switch store.state.appLifecycle.currentScreen {
-            case .main:
-                MainView(state: store.state.mainState)
+        TabBarContainerView {
+            Group {
+                switch store.state.tabBarState.selectedTab {
+                case .main:
+                    MainView()
+                case .history:
+                    EmptyView()
+                case .profile:
+                    EmptyView()
+                case .settings:
+                    EmptyView()
+                }
             }
         }
-        .animation(.easeInOut, value: store.state.appLifecycle.currentScreen)
     }
 }

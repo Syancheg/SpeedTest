@@ -1,4 +1,4 @@
 enum AppAction: ActionType {
-    case lifecycle(AppLifecycleAction)
+    case tabBar(TabBarAction)
     case main(MainAction)
 }
