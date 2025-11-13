@@ -1,4 +1,4 @@
 struct AppState {
-    var appLifecycle = AppLifecycleState()
-    var mainState = MainState(screen: .start)
+    var tabBarState = TabBarState()
+    var mainState = MainState()
 }
