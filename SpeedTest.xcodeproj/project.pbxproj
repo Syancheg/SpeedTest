@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B5E660162EC5CB1F00EFB163 /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E6602F2EC5CC7A00EFB163 /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B5E660182EC5CB1F00EFB163 /* SpeedTest */ = {
+		B5E660312EC5CC7A00EFB163 /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SpeedTest;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5E660132EC5CB1F00EFB163 /* Frameworks */ = {
+		B5E6602C2EC5CC7A00EFB163 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5E6600D2EC5CB1F00EFB163 = {
+		B5E660262EC5CC7A00EFB163 = {
 			isa = PBXGroup;
 			children = (
-				B5E660182EC5CB1F00EFB163 /* SpeedTest */,
-				B5E660172EC5CB1F00EFB163 /* Products */,
+				B5E660312EC5CC7A00EFB163 /* Sources */,
+				B5E660302EC5CC7A00EFB163 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5E660172EC5CB1F00EFB163 /* Products */ = {
+		B5E660302EC5CC7A00EFB163 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5E660162EC5CB1F00EFB163 /* SpeedTest.app */,
+				B5E6602F2EC5CC7A00EFB163 /* SpeedTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5E660152EC5CB1F00EFB163 /* SpeedTest */ = {
+		B5E6602E2EC5CC7A00EFB163 /* SpeedTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5E660232EC5CB2000EFB163 /* Build configuration list for PBXNativeTarget "SpeedTest" */;
+			buildConfigurationList = B5E6603C2EC5CC7C00EFB163 /* Build configuration list for PBXNativeTarget "SpeedTest" */;
 			buildPhases = (
-				B5E660122EC5CB1F00EFB163 /* Sources */,
-				B5E660132EC5CB1F00EFB163 /* Frameworks */,
-				B5E660142EC5CB1F00EFB163 /* Resources */,
+				B5E6602B2EC5CC7A00EFB163 /* Sources */,
+				B5E6602C2EC5CC7A00EFB163 /* Frameworks */,
+				B5E6602D2EC5CC7A00EFB163 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B5E660182EC5CB1F00EFB163 /* SpeedTest */,
+				B5E660312EC5CC7A00EFB163 /* Sources */,
 			);
 			name = SpeedTest;
 			packageProductDependencies = (
 			);
 			productName = SpeedTest;
-			productReference = B5E660162EC5CB1F00EFB163 /* SpeedTest.app */;
+			productReference = B5E6602F2EC5CC7A00EFB163 /* SpeedTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5E6600E2EC5CB1F00EFB163 /* Project object */ = {
+		B5E660272EC5CC7A00EFB163 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					B5E660152EC5CB1F00EFB163 = {
+					B5E6602E2EC5CC7A00EFB163 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = B5E660112EC5CB1F00EFB163 /* Build configuration list for PBXProject "SpeedTest" */;
+			buildConfigurationList = B5E6602A2EC5CC7A00EFB163 /* Build configuration list for PBXProject "SpeedTest" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B5E6600D2EC5CB1F00EFB163;
+			mainGroup = B5E660262EC5CC7A00EFB163;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B5E660172EC5CB1F00EFB163 /* Products */;
+			productRefGroup = B5E660302EC5CC7A00EFB163 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5E660152EC5CB1F00EFB163 /* SpeedTest */,
+				B5E6602E2EC5CC7A00EFB163 /* SpeedTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5E660142EC5CB1F00EFB163 /* Resources */ = {
+		B5E6602D2EC5CC7A00EFB163 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5E660122EC5CB1F00EFB163 /* Sources */ = {
+		B5E6602B2EC5CC7A00EFB163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B5E660212EC5CB2000EFB163 /* Debug */ = {
+		B5E6603A2EC5CC7C00EFB163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		B5E660222EC5CB2000EFB163 /* Release */ = {
+		B5E6603B2EC5CC7C00EFB163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		B5E660242EC5CB2000EFB163 /* Debug */ = {
+		B5E6603D2EC5CC7C00EFB163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		B5E660252EC5CB2000EFB163 /* Release */ = {
+		B5E6603E2EC5CC7C00EFB163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5E660112EC5CB1F00EFB163 /* Build configuration list for PBXProject "SpeedTest" */ = {
+		B5E6602A2EC5CC7A00EFB163 /* Build configuration list for PBXProject "SpeedTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E660212EC5CB2000EFB163 /* Debug */,
-				B5E660222EC5CB2000EFB163 /* Release */,
+				B5E6603A2EC5CC7C00EFB163 /* Debug */,
+				B5E6603B2EC5CC7C00EFB163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5E660232EC5CB2000EFB163 /* Build configuration list for PBXNativeTarget "SpeedTest" */ = {
+		B5E6603C2EC5CC7C00EFB163 /* Build configuration list for PBXNativeTarget "SpeedTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5E660242EC5CB2000EFB163 /* Debug */,
-				B5E660252EC5CB2000EFB163 /* Release */,
+				B5E6603D2EC5CC7C00EFB163 /* Debug */,
+				B5E6603E2EC5CC7C00EFB163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5E6600E2EC5CB1F00EFB163 /* Project object */;
+	rootObject = B5E660272EC5CC7A00EFB163 /* Project object */;
 }
